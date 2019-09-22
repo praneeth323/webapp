@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="javascript.js"></script>
+    <title>Praneeth</title>
+</head>
+
+<body>
+    <h2 style="text-align: center;">
+        Maitre D
+    </h2>
+        <table align="center">
+            <tr> <td colspan="2"><label for="total">Total: </label>
+
+                <input type="text" id="total" size="25">
+            </td>
+        </tr>
+
+
+                <tr style="height: 2em"></tr>
+            <tr>
+                <td> Tip:$ <span id="tip"></span>
+                </td>
+                <td> <label for="rate"> Rate:</label>
+                <input type="text" id="rate" size="15" >
+            </td>
+            </tr>
+            <tr>
+                <td>
+             Tax:$ <span id="tax"></span>
+            </td>
+        </tr>
+            <tr>
+                 <td>
+                    GrandTotal:$ <span id="grand"></span>
+                 </td>
+            </tr>
+            <tr>
+                    <td>
+                        <button style="text-align: center;" onclick="bill()">Calculate</button>
+                    </td>
+            </tr>
+                
+        </table>
+ 
+</body>
+
+</html>
